@@ -85,6 +85,11 @@
 						<goals>
 							<goal>process-aot</goal>
 						</goals>
+						<configuration>
+							<profiles>
+								aot
+							</profiles>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
